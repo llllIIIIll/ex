@@ -1,0 +1,76 @@
+1.html
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charste="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script type="text/javascript" src="test.js"></script>
+    <link href="test1.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>header</header>
+    <nav>nav</nav>
+    <section>section
+      <article>article 1</article>
+      <article>article 2</article>
+      <article>article 3</article>
+    </section>
+    <aside>aside</aside>
+    <section>section2
+        <article>article 1</article>
+        <article>article 2</article>
+        <article>article 3</article>
+    </section>
+    <aside>sdlfjsl</aside>
+    <footer>footer</footer>
+  </body>
+
+</html>
+-----------------------------
+test1.css
+
+@media ( max-width: 768px ) {
+    body { background-color: gold; }
+  }
+
+  body {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  header, nav, section, article, aside, footer {
+    text-align: center;
+    width: 1000px;
+    margin: 5px;
+    padding: 5px;
+  }
+  header {
+    background: #f8bbd0;
+  }
+  nav {
+    background: #e1bee7;
+  }
+  section {
+    width: 650px;
+    height: 160px;
+    background: #b39ddb;
+    float: left;
+  }
+  article {
+    width: 620px;
+    background: #e6ee9c;
+  }
+  aside {
+    width: 310px;
+    height: 160px;
+    background: #64b5f6;
+    float: right;
+    
+  }
+
+  footer{
+    background: #80cbc4;
+    clear: both;
+  }
